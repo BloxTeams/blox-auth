@@ -1,3 +1,9 @@
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/83887130/194349614-fc6b7d7d-5177-4673-b1b8-18c17e537dba.png" width="150px">
+
+</div>
+
 # blox-auth
 
 BloxAuth is a JavaScript and Express compatible npm package to fasten the process of interacting with Roblox OAuth2.0 endpoints.
