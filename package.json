@@ -1,22 +1,27 @@
 {
-  "name": "blox-auth",
+  "name": "@bloxteams/blox-auth",
   "version": "1.0.0",
   "description": "Roblox OAuth2.0 API wrapper developed for BloxTeams",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:BloxTeams/blox-auth.git"
+    "url": "git+ssh://git@github.com/BloxTeams/blox-auth.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -p ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "blox-auth"
+    "blox-auth",
+    "roblox",
+    "blox"
   ],
-  "author": "iKingNinja",
-  "license": "ISC",
+  "author": "BloxTeams",
+  "license": "Mozilla Public License 2.0",
   "dependencies": {
     "node-fetch": "^2.6.7"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/BloxTeams/blox-auth/issues"
+  },
+  "homepage": "https://github.com/BloxTeams/blox-auth#readme"
 }
