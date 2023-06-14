@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Roblox OAuth2.0 API wrapper developed for BloxTeams",
   "main": "index.js",
+  "types": "lib/types.d.ts",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/BloxTeams/blox-auth.git"
