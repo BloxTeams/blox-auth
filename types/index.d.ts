@@ -1,3 +1,5 @@
+import { NextFunction, Request, Response } from 'express'
+
 declare module "@bloxteams/blox-auth" {
     export interface AuthorizationOptions {
         client_id: string;
@@ -19,18 +21,18 @@ declare module "@bloxteams/blox-auth" {
     // Classes
 
     export class AuthorizationScopes {
-        constructor (scopes: string[]): void;
+        constructor (scopes: string[]);
         get scopes(): string;
     }
 
     export class Client {
-        constructor (options: AuthorizationOptions): void;
+        constructor (options: AuthorizationOptions);
 
         config(): AuthorizationOptions;
     }
 
     export class User {
-        constructor(token: string): void;
+        constructor(token: string);
         get token(): string;
         getInfo(): Promise<Object | Error>;
         getResources(): Promise<Object | Error>;
@@ -39,6 +41,6 @@ declare module "@bloxteams/blox-auth" {
 
     // Functions
 
-    export function authorize(params: AuthorizationParams): Application<Record<string, any>>
+    export function authorize(params: AuthorizationParams): (req: Request, res: Response, next: NextFunction) => void
     export function getToken(code: string): void;
 }
