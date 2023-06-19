@@ -1,8 +1,9 @@
 {
   "name": "@bloxteams/blox-auth",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Roblox OAuth2.0 API wrapper developed for BloxTeams",
   "main": "index.js",
+  "types": "lib/types/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/BloxTeams/blox-auth.git"
@@ -18,6 +19,8 @@
   "author": "BloxTeams",
   "license": "Mozilla Public License 2.0",
   "dependencies": {
+    "@types/express": "^4.17.17",
+    "express": "^4.18.2",
     "node-fetch": "^2.6.7"
   },
   "bugs": {
