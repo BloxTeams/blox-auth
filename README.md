@@ -11,7 +11,7 @@ BloxAuth is a JavaScript and Express compatible npm package to fasten the proces
 ## Setup
 BloxAuth requires a client representing your Roblox OAuth2.0 application. To initialize a client you can use the `Client` class.
 ```js
-const bloxAuth = require("blox-auth");
+const bloxAuth = require("@bloxteams/blox-auth");
 const client = new bloxAuth.Client({
     client_id: "string",
     client_secret: "string",
